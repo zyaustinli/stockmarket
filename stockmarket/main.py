@@ -12,7 +12,7 @@ stock_params = {
     "function": "TIME_SERIES_INTRADAY",
     "symbol": "TSLA",
     "interval": "60min",
-    "apikey": "SGDHX68YRQSTNQDX"
+    "apikey": ""
 }
 
 
@@ -44,7 +44,7 @@ percent_diff = diff*100/day_before_yesterday_close
 def get_news():
     news_params ={
         'q': "Tesla",
-        'apikey': "6d23d8fa200c46f3a800e8ccba2c4c18"
+        'apikey': ""
 
     }
     r_news = requests.get(NEWS_ENDPOINT, params=news_params)
